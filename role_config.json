@@ -1,0 +1,97 @@
+{
+    "userTypes": {
+        "admin": {
+            "menuItems": {
+                "dashboard": true,
+                "bookings": true,
+                "passRequestList": true,
+                "passTypeList": true,
+                "createPassType": true,
+                "operators": true,
+                "createOperator": true,
+                "allotedParkings": true,
+                "addAllotedParkings": true
+            },
+            "menuHeaders": {
+                "bookings": true,
+                "pass": true,
+                "operators": true,
+                "allotedParkings": true
+            },
+            "dashboardSections": {
+                "today_revenue": true,
+                "projected_revenue": true,
+                "occupency_percent": true,
+                "vehicle_parked": true,
+                "traffic_chart": true,
+                "peak_lean_chart": true,
+                "recent_bookings": true,
+                "select_premise": true,
+                "show_settings": true,
+                "notification": true
+            }
+        },
+        "merchant": {
+            "menuItems": {
+                "dashboard": true,
+                "bookings": true,
+                "passRequestList": true,
+                "passTypeList": true,
+                "createPassType": true,
+                "operators": true,
+                "createOperator": true,
+                "allotedParkings": true,
+                "addAllotedParkings": true
+            },
+            "menuHeaders": {
+                "bookings": true,
+                "pass": true,
+                "operators": true,
+                "allotedParkings": true
+            },
+            "dashboardSections": {
+                "today_revenue": true,
+                "projected_revenue": true,
+                "occupency_percent": true,
+                "vehicle_parked": true,
+                "traffic_chart": true,
+                "peak_lean_chart": true,
+                "recent_bookings": true,
+                "select_premise": true,
+                "show_settings": true,
+                "notification": true
+            }
+        },
+        "manager": {
+            "menuItems": {
+                "dashboard": true,
+                "bookings": true,
+                "passRequestList": true,
+                "passTypeList": true,
+                "createPassType": true,
+                "operators": true,
+                "createOperator": true,
+                "allotedParkings": true,
+                "addAllotedParkings": true
+            },
+            "menuHeaders": {
+                "bookings": true,
+                "pass": true,
+                "operators": true,
+                "allotedParkings": true
+            },
+            "dashboardSections": {
+                "today_revenue": false,
+                "projected_revenue": false,
+                "occupency_percent": true,
+                "vehicle_parked": true,
+                "traffic_chart": true,
+                "peak_lean_chart": true,
+                "recent_bookings": true,
+                "select_premise": true,
+                "show_settings": true,
+                "notification": true
+            }
+        }
+    }
+}
